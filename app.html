@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mata mosquito</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- O "onresize=""" serve para que a função ajustaTamanhoPalcoJogo() será chamada, ajustando os valores de altura e largura para corresponderem ao novo tamanho da tela -->
+<body onresize="ajustaTamanhoPalcoJogo()">
+
+    <div class="painel"><!--Criar o painel de tempo-->
+        <div class="vidas"><!--Criar os corações com as vidas-->
+            <img id="v1" src="imagens/coracao_cheio.png" alt="">
+
+            <img id="v2" src="imagens/coracao_cheio.png" alt="">
+
+            <img id="v3" src="imagens/coracao_cheio.png" alt="">
+        </div>
+
+        <div class="cronometro"><!--Criar o cronometro de quanto tempo falta-->
+            Tempo restante
+
+            <span id="cronometro"></span>
+        </div>
+    </div>
+
+    <script src="jogo.js"></script>
+
+    <script>
+        document.getElementById('cronometro').innerHTML = tempo
+
+        //Fazendo aparecer mosquitos na tela a cada 1segundo, um em cima do outro, no JS vai remover o anterior, e aqui fazer aparecer o outro, e vai ficar nesse ciclo.
+        let criaMosquito = setInterval(function(){
+            posicaoRandomica()
+        }, criaMosquitoTempo)
+    </script>
+</body>
+</html>
