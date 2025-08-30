@@ -2,7 +2,7 @@
 
 <img src="./imagens/tela_inicial.png" alt="Tela do Jogo" width="100%"/>
 
-O **Mata Mosquito** é um jogo simples e divertido onde você precisa clicar nos mosquitos que aparecem aleatoriamente na tela antes que eles sumam. Se perder 3 mosquitos, o jogo acaba! Ele foi feito com **HTML5**, **CSS3** e **JavaScript puro**, sendo ideal para treinar lógica, manipulação do DOM e eventos.
+O **Mata Mosquito** é um jogo simples e divertido onde você precisa clicar nos mosquitos que aparecem aleatoriamente na tela antes que eles sumam. Se perder 3 mosquitos, o jogo acaba! Ele foi feito com **HTML5**, **CSS3** e **JavaScript puro**, sendo ideal para treinar lógica, manipulação do DOM e eventos. Desenvolvido durante o curso Udemy, utilizado como recurso didático.
 
 ---
 
